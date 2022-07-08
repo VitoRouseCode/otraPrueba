@@ -1,0 +1,97 @@
+.caja{
+    border:1px solid #ffffff;
+    
+}
+.plantilla{
+    display: grid;
+    grid-template-columns: 20% auto;
+    margin:0;
+}
+.uno{
+    grid-row: 1/6;
+    background-color: rgb(19, 18, 7);
+    
+    
+}
+.uno:hover{
+    background: rgb(74, 74, 74);
+    font-size: 102%;
+
+    
+}
+.cinco{
+    height: 550px;    
+}
+.dos{
+    
+    height:80px;
+    background-color: rgb(133, 243, 243);
+    font-family: 'Spectral SC';
+    text-align: center;
+    letter-spacing: 40px;
+    line-height: 90px;
+    font-size: 50px;
+    color:black;
+
+    
+}
+.dos:hover{
+    background: black;
+    color: rgb(133, 243, 243);
+    cursor: pointer;
+}
+
+.seis{
+    height:100px;
+    background-color: rgb(133, 243, 243);
+    text-align: center;
+    letter-spacing: 3px;
+    line-height: 15px;
+    font-size: 10px;
+    padding-top: 5px;
+}
+.seis:hover{
+    background: black;
+    color:rgb(133, 243, 243);
+}
+body{
+    margin:0;
+}
+.lista{
+    margin-top: 80px;
+    list-style: none;
+   padding-left: 30px;
+   
+   
+    border: #ffffff solid 1px;
+    background-color: rgb(133, 243, 243);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.lista:hover{
+    background: black;
+}
+.caxa{
+    border: #ffffff solid 1px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    color: rgb(133, 243, 243);
+    font-family: 'Specctral SC';
+    background-color: black;
+    letter-spacing: 5px;
+    
+    
+}
+.caxa:hover{
+    background:rgb(133, 243, 243); 
+    color:black;
+    cursor: pointer;
+}
+h2{
+    color:rgb(133, 243, 243);
+    margin-left: 60px;
+    padding-top: 150px;
+    font-family: 'Spectral sc';
+    
+}
